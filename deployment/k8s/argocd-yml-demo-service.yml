@@ -2,6 +2,10 @@
 apiVersion: v1
 kind: Service
 metadata:
+  annotations:
+    jkube.eclipse.org/git-commit: f7b2dd9858476e7dc897b4b6e872d9b87c7d61b9
+    jkube.eclipse.org/git-url: https://github.com/mohammad2java/argocd-yml-demo.git
+    jkube.eclipse.org/git-branch: master
   labels:
     app: argocd-yml-demo
     provider: jkube
