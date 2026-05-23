@@ -9,7 +9,8 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - http:
+  - host: mohd.com
+    http:
       paths:
       - path: /amir
         pathType: Prefix
